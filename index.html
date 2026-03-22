@@ -1,11 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
+<!doctype html>
+<html lang="en" class="bg-[#F8FAFC]">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+      * {
+        font-family: "Geist", sans-serif;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <header class="w-10/12 mx-auto py-10">
+      <h1 class="text-3xl font-bold mb-5 text-[#002C5C]">Job Application Tracker</h1>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-5" >
+        <div class="bg-white p-5 rounded-lg ">
+          <h3 class="text-[#323B49]">Total</h3>
+          <p class="text-xl font-bold text-[#323B49]">0</p>
+        </div>
+        <div class="bg-white p-5 rounded-lg ">
+          <h3 class="text-[#323B49]">Interview</h3>
+          <p class="text-xl font-bold text-[#323B49]">0</p>
+        </div>
+        <div class="bg-white p-5 rounded-lg ">
+          <h3 class="text-[#323B49]">Rejected</h3>
+          <p class="text-xl font-bold text-[#323B49]">0</p>
+        </div>
+      </div>
+    </header>
   
 </body>
 </html>
